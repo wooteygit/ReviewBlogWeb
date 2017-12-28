@@ -8,12 +8,12 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
     children: [
-        {
-            path: '',
-            component: MenuleftComponent
-        },
-        {
-          path: 'dashboard',
+      {
+          path: '',
+          component: MenuleftComponent
+      },
+      {
+          path: '',
           component: DashboardComponent
       }
     ]
